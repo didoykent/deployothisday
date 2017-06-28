@@ -1,0 +1,234 @@
+body{
+  font-family: "Circular","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 15px;
+    line-height: 1.42857143;
+    color: #000;
+    background-color: #fff;
+
+}
+
+.navbar {
+    text-align: center;
+    height: 56px;
+    border-bottom: 1px solid #ddd;
+    border-radius: 0;
+    background-color: rgba(255,255,255,0.97);
+    float: none;
+    margin: 0;
+    -webkit-transition: background-color .4s ease-in-out,border-bottom-color .4s;
+    -o-transition: background-color .4s ease-in-out,border-bottom-color .4s;
+    transition: background-color .4s ease-in-out,border-bottom-color .4s;
+}
+
+.navbar-fixed-top, .navbar-fixed-bottom {
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+}
+
+
+
+/* Global */
+.container{
+  width:80%;
+  margin:auto;
+  overflow:hidden;
+}
+
+ul{
+  margin:0;
+  padding:0;
+}
+
+
+.buttun{
+
+  padding-top: 5px;
+}
+
+
+
+/* Header **/
+header{
+
+
+  padding-top:5px;
+
+  min-height:70px;
+
+}
+
+header a{
+  color:#000;
+  text-decoration:none;
+  text-transform: uppercase;
+  font-size:13px;
+}
+
+header li{
+  float:left;
+  display:inline;
+  padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:right;
+
+
+  padding-top:5px;
+}
+
+header #branding h1{
+  margin:0;
+}
+
+header nav{
+  float:left;
+  margin-top:10px;
+}
+
+
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+
+
+
+
+
+
+
+
+footer{
+  padding:20px;
+  margin-top:20px;
+  color:#ffffff;
+  background-color:#e8491d;
+  text-align: center;
+}
+
+/* Media Queries */
+@media(max-width: 768px){
+  header #branding,
+  header nav,
+  header nav li,
+  #newsletter h1,
+  #newsletter form,
+  #boxes .box,
+  article#main-col,
+  aside#sidebar{
+    float:none;
+    text-align:center;
+    width:100%;
+  }
+
+  header{
+    padding-bottom:20px;
+  }
+
+
+}
+
+
+.glyphicon { margin-right:5px; }
+.apple
+{
+    margin-bottom: 30px;
+    padding: 0px;
+    -webkit-border-radius: 0px;
+    -moz-border-radius: 0px;
+    border-radius: 0px;
+
+
+}
+
+
+.apple:hover
+{
+
+
+}
+
+.apple img{
+
+max-height: 150px;
+max-width: 200px;
+}
+
+
+.description {
+    color: #7f7f7f;
+}
+
+
+.price {
+    font-weight:bold;
+    font-size: 15px;
+
+
+
+    padding-left: 120px;
+    padding-bottom: 50px;
+
+}
+
+.stocks{
+
+  padding-top: 10px;
+}
+
+.buy{
+
+  padding-right: 65px;
+}
+
+
+
+
+#footer {
+  background: #000046; /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #000046 , #1CB5E0); /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #000046 , #1CB5E0); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  padding-top: 20px;
+
+
+}
+
+
+#footertext{
+
+    color:#ffffff;
+}
+
+#footer a {
+  color:#efefef;
+}
+
+#footer img {
+
+
+}
+
+
+.badge {
+  padding-left: 9px;
+  padding-right: 9px;
+  -webkit-border-radius: 9px;
+  -moz-border-radius: 9px;
+  border-radius: 9px;
+
+}
+
+#cart-badge {
+    font-size: 14px;
+    background: #696969;
+    color: #fff;
+    padding: 0 5px;
+    vertical-align: top;
+
+}
